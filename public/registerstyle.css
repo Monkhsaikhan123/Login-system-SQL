@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    width:100%;
+    height:100vh;
+}
+form{
+    width:100%;
+    height:100%;
+}
+.header{
+    width:100%;
+    height:10%;
+    background-color:cyan;
+}
+.main{
+    width:100%;
+    height:90%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.burtguuleh{
+    width:40%;
+    height:8%;
+}
+.emailhayggarutas{
+    width:40%;
+    height:5%;
+    font-size:12px;
+}
+.input{
+    width:40%;
+    height:10%;
+    display:flex;
+    align-items: center;
+}
+input{
+    width:100%;
+    height:70%;
+}
+.taburtgelteibol{
+    width:40%;
+    height:10%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    font-size:15px;
+}
+.taburtgelteibol a{
+    font-size:15px;
+}
+.butsah{
+    width:40%;
+    height:10%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button{
+    width: 30%;
+    height:70%;
+}
